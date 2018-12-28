@@ -2,6 +2,8 @@
 A minecraft 1.13+ datapack that implements `/home`, `/sethome`, and `/back` 
 like behavior via commands and triggers accessed through a written book.
 
+Why "Teraport"? It's a reference to Schlock Mercenary; a great webcomic.
+
 `readme.md` is not required in the datapack zip file, but may be included with 
 no ill effects.
 
