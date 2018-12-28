@@ -1,0 +1,34 @@
+{
+    "parent":"minecraft:story/root",
+    "display": {
+        "title": {
+            "text": "Spatial Awareness"
+        },
+        "description": {
+            "text": "A flash of insight comes over you after defeating an enderman and sleeping in a bed; a book has materialized in your inventory"
+        },
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "hasSlept": {
+            "trigger": "minecraft:slept_in_bed"
+        },
+        "killedEnderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akoimeexx:teraport/givebook"
+    }
+}
